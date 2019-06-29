@@ -72,7 +72,9 @@ img::-moz-selection {
 	text-transform: uppercase
 }
 
-
+#mainNav .navbar-nav>li.nav-item>a:hover {
+	color: #14544a !important;
+}
 
 header.masthead {
 	margin-bottom: 50px;
@@ -320,9 +322,7 @@ footer .copyright {
 		color: #363636;
 	}
 	#mainNav .navbar-nav>li.nav-item>a:focus,
-	#mainNav .navbar-nav>li.nav-item>a:hover {
-		color: rgba(255, 255, 255, .8)
-	}
+
 }
 
 @media only screen and (min-width:992px) {
